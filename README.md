@@ -2,7 +2,7 @@
 ## IAM
 Recurso de permissionamento e regras da aws, nele podemos criar grupos de acesso e usuarios de sistema para o gerenciamento de recursos e administração de previlégios.
 
-## IAM
+## Billing
 Através do billing podemos verificar: custo mensal, validar gastos por recursos, criar alarmes para mitigar custos e entre outras informações.
 
 ## S3
