@@ -1,4 +1,7 @@
 # aws_study
+Este repositório tem como objetivo registrar alguns termos e anotações relacionadas ao curso de Certificação Amazon AWS Solution Architect
+https://www.udemy.com/course/certificacao-amazon-aws-2019-solutions-architect/
+
 ## IAM
 Recurso de permissionamento e regras da aws, nele podemos criar grupos de acesso e usuarios de sistema para o gerenciamento de recursos e administração de previlégios.
 
@@ -13,6 +16,9 @@ Através do S3 é possivel versionar o arquivo (caso o versionamento seja marcad
 Cuidado com o versionamento, pois o mesmo pode ser cobrado por arquivos excluidos, versoes e etc.
 
 Gerenciar permissões do arquivo como leitura escrita.<br>
+Muito cuidado ao mover arquivos entre classes (Por exemplo: Mudar um arquivo da Standard> glacier > one region)
+
+Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes e algumas regras para o ciclo de vida do arquivo.
 
 # Glossário
 1 - arn = Amazon Resource Name<br>
@@ -20,4 +26,10 @@ Gerenciar permissões do arquivo como leitura escrita.<br>
 3 - IAM = Identity and Access Management.
 4 - ACL = Lista de controle de acesso (access-control list).
 5 - Permissioes = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. 
-6 - LifeCycle = Ciclo de vida de um arquivo.
+6 - LifeCycle = Ciclo de vida de um arquivo. 
+7 - Cross Replication = 
+
+# Links uteis
+
+* https://docs.aws.amazon.com/cli/index.html
+* https://aws.amazon.com/pt/s3/storage-classes/
