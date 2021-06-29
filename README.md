@@ -1,4 +1,4 @@
-# aws_Study
+# aws_study
 ## IAM
 Recurso de permissionamento e regras da aws, nele podemos criar grupos de acesso e usuarios de sistema para o gerenciamento de recursos e administração de previlégios.
 
