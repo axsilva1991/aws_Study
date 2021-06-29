@@ -20,3 +20,4 @@ Gerenciar permissões do arquivo como leitura escrita.<br>
 3 - IAM = Identity and Access Management.
 4 - ACL = Lista de controle de acesso (access-control list).
 5 - Permissioes = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. 
+6 - LifeCycle = Ciclo de vida de um arquivo.
