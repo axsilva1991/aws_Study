@@ -10,6 +10,8 @@ Bucket não tem classe quem tem classe são os arquivos de dentro do bucket.<br>
 Os arquivos dentro do bucket podem ser seguimentados em classes (Strorage Class) de acordo com a necessidade da disponibilidade do seu acesso.<br>
 
 Através do S3 é possivel versionar o arquivo (caso o versionamento seja marcado nas config's do app), lembrando que o versionamento é pago como 2 ou N arquivos armazenados<br>
+Cuidado com o versionamento, pois o mesmo pode ser cobrado por arquivos excluidos, versoes e etc.
+
 Gerenciar permissões do arquivo como leitura escrita.<br>
 
 # Glossário
