@@ -9,7 +9,11 @@ Através do billing podemos verificar: custo mensal, validar gastos por recursos
 Bucket não tem classe quem tem classe são os arquivos de dentro do bucket.<br>
 Os arquivos dentro do bucket podem ser seguimentados em classes (Strorage Class) de acordo com a necessidade da disponibilidade do seu acesso.<br>
 
+
+
 # Glossário
 1 - arn = Amazon Resource Name<br>
 2 - S3 = Ferramenta de armazenamento de objetos da Amazon. <br>
-3 - Identity and Access Management (IAM)
+3 - IAM = Identity and Access Management.
+4 - ACL = Lista de controle de acesso (access-control list).
+5 - Permissioes = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. 
