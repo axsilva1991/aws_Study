@@ -19,6 +19,11 @@ Gerenciar permissões do arquivo como leitura escrita.<br>
 Muito cuidado ao mover arquivos entre classes (Por exemplo: Mudar um arquivo da Standard> glacier > one region)
 
 Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes e algumas regras para o ciclo de vida do arquivo.
+### Comandos
+**como migrar todos os dados de uma bucket para outra**
+```console
+aws cp --recursive s3://bucket-origem s3://bucket-destino 
+```
 
 # Glossário
 1 - arn = Amazon Resource Name<br>
