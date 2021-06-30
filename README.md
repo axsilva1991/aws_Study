@@ -27,6 +27,7 @@ aws cp --recursive s3://bucket-origem s3://bucket-destino
 ```
 ## CloudFront
 Serviço da AWS responsável por entregar aos clientes CDN's 
+* Trata-se de uma boa abordagem para sites estáticos, streaming de videos para agilizar a entrega de conteudo em localidades distantes.
 
 :warning: **Lembrando que**:
 <br>* Este comando nao move diretorios vazios. 
@@ -40,7 +41,7 @@ Serviço da AWS responsável por entregar aos clientes CDN's
 5 - **Permissões** = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. <br>
 6 - **LifeCycle** = Ciclo de vida de um arquivo.<br> 
 7 - **Cross Replication** = trata-se de uma forma de repicação de dados criada pela aws para garantir que os arquivos nao sejam perdidos, geralmente usada para garantir que os arquivos nao sejam perdidos<br> 
-8 - **CDN** = Content Delivery Network<br>
+8 - **CDN** = Content Delivery Network - replica os dados de acordo com as requisições que aparecem em regionais da AWS.<br>
 9 - **AZ** = Availability Zone<br>
 10 - **EDGE Location** = ??? <br>
 
