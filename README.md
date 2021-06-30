@@ -25,13 +25,14 @@ Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de c
 ```console
 aws cp --recursive s3://bucket-origem s3://bucket-destino 
 ```
-## CloudFront
-Serviço da AWS responsável por entregar aos clientes CDN's 
-* Trata-se de uma boa abordagem para sites estáticos, streaming de videos para agilizar a entrega de conteudo em localidades distantes.
-
 :warning: **Lembrando que**:
 <br>* Este comando nao move diretorios vazios. 
 <br>* Caso eu delete algum arquivo no diretorio no meu bucket principal ele nao deleta o arquivo no meu diretório de replicação.
+
+
+## CloudFront
+Serviço da AWS responsável por entregar aos clientes CDN's 
+* Trata-se de uma boa abordagem para sites estáticos, streaming de videos para agilizar a entrega de conteudo em localidades distantes.
 
 # Glossário
 1 - **ARN** = Amazon Resource Name<br>
