@@ -31,11 +31,11 @@ aws cp --recursive s3://bucket-origem s3://bucket-destino
 # Glossário
 1 - arn = Amazon Resource Name<br>
 2 - S3 = Ferramenta de armazenamento de objetos da Amazon. <br>
-3 - IAM = Identity and Access Management.
-4 - ACL = Lista de controle de acesso (access-control list).
-5 - Permissioes = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. 
-6 - LifeCycle = Ciclo de vida de um arquivo. 
-7 - Cross Replication = 
+3 - IAM = Identity and Access Management.<br>
+4 - ACL = Lista de controle de acesso (access-control list).<br>
+5 - Permissioes = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. <br>
+6 - LifeCycle = Ciclo de vida de um arquivo.<br> 
+7 - Cross Replication = trata-se de uma forma de repicação de dados criada pela aws para garantir que os arquivos nao sejam perdidos, geralmente usada para garantir que os arquivos nao sejam perdidos<br>
 
 # Links uteis
 
