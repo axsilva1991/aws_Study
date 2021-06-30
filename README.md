@@ -41,7 +41,8 @@ Serviço da AWS responsável por entregar aos clientes CDN's
 6 - **LifeCycle** = Ciclo de vida de um arquivo.<br> 
 7 - **Cross Replication** = trata-se de uma forma de repicação de dados criada pela aws para garantir que os arquivos nao sejam perdidos, geralmente usada para garantir que os arquivos nao sejam perdidos<br> 
 8 - **CDN** = Content Delivery Network<br>
-9 - **AZ** = Availability Zone
+9 - **AZ** = Availability Zone<br>
+10 - **EDGE Location** = ??? <br>
 
 
 # Links uteis
