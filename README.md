@@ -19,11 +19,15 @@ Gerenciar permissões do arquivo como leitura escrita.<br>
 Muito cuidado ao mover arquivos entre classes (tier), pois esta mudança de classes é cobrada pela AWS.(Por exemplo: Mudar um arquivo da Standard> glacier > one region)
 
 Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes (tier) e algumas regras para o ciclo de vida do arquivo.
+
 ### Comandos
 **Como migrar todos os arquivos de uma bucket para outra ?**
 ```console
 aws cp --recursive s3://bucket-origem s3://bucket-destino 
 ```
+## CloudFront
+Serviço da AWS responsável por entregar aos clientes CDN's 
+
 :warning: **Lembrando que**:
 <br>* Este comando nao move diretorios vazios. 
 <br>* Caso eu delete algum arquivo no diretorio no meu bucket principal ele nao deleta o arquivo no meu diretório de replicação.
@@ -35,7 +39,10 @@ aws cp --recursive s3://bucket-origem s3://bucket-destino
 4 - **ACL** = Lista de controle de acesso (access-control list).<br>
 5 - **Permissões** = Através de uma permissão, podemos usar (ACL), posso ter permissões relacionadas a estruturas e recursos criados apartir ou sobre a estrutra. <br>
 6 - **LifeCycle** = Ciclo de vida de um arquivo.<br> 
-7 - **Cross Replication** = trata-se de uma forma de repicação de dados criada pela aws para garantir que os arquivos nao sejam perdidos, geralmente usada para garantir que os arquivos nao sejam perdidos<br>
+7 - **Cross Replication** = trata-se de uma forma de repicação de dados criada pela aws para garantir que os arquivos nao sejam perdidos, geralmente usada para garantir que os arquivos nao sejam perdidos<br> 
+8 - **CDN** = Content Delivery Network<br>
+9 - **AZ** = Availability Zone
+
 
 # Links uteis
 
