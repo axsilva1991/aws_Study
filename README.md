@@ -16,7 +16,7 @@ Através do S3 é possivel versionar o arquivo (caso o versionamento seja marcad
 Cuidado com o versionamento, pois o mesmo pode ser cobrado por arquivos excluidos, versoes e etc.
 
 Gerenciar permissões do arquivo como leitura escrita.<br>
-Muito cuidado ao mover arquivos entre classes (tier) (Por exemplo: Mudar um arquivo da Standard> glacier > one region)
+Muito cuidado ao mover arquivos entre classes (tier), pois esta mudança de classes é cobrada pela AWS.(Por exemplo: Mudar um arquivo da Standard> glacier > one region)
 
 Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes (tier) e algumas regras para o ciclo de vida do arquivo.
 ### Comandos
