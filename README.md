@@ -20,10 +20,11 @@ Muito cuidado ao mover arquivos entre classes (Por exemplo: Mudar um arquivo da 
 
 Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes e algumas regras para o ciclo de vida do arquivo.
 ### Comandos
-**como migrar todos os dados de uma bucket para outra**
+**Como migrar todos os arquivos de uma bucket para outra ?**
 ```console
 aws cp --recursive s3://bucket-origem s3://bucket-destino 
 ```
+!!! Lembrando que este comando nao move diretorios vazios. 
 
 # Glossário
 1 - arn = Amazon Resource Name<br>
