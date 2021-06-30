@@ -24,10 +24,10 @@ Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de c
 ```console
 aws cp --recursive s3://bucket-origem s3://bucket-destino 
 ```
-:warning: **Lembrando que:
+:warning: **Lembrando que**:
 <br>* Este comando nao move diretorios vazios. 
 <br>* Caso eu delete algum arquivo no diretorio no meu bucket principal ele nao deleta o arquivo no meu diretório de replicação.
-**
+
 # Glossário
 1 - arn = Amazon Resource Name<br>
 2 - S3 = Ferramenta de armazenamento de objetos da Amazon. <br>
