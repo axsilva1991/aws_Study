@@ -9,16 +9,16 @@ Recurso de permissionamento e regras da aws, nele podemos criar grupos de acesso
 Através do billing podemos verificar: custo mensal, validar gastos por recursos, criar alarmes para mitigar custos e entre outras informações.
 
 ## S3
-Bucket não tem classe quem tem classe são os arquivos de dentro do bucket.<br>
-Os arquivos dentro do bucket podem ser seguimentados em classes (Strorage Class) de acordo com a necessidade da disponibilidade do seu acesso.<br>
+Bucket não tem classe quem tem classe são os arquivos de dentro  (tier)do bucket.<br>
+Os arquivos dentro do bucket podem ser seguimentados em classes (tier) (Strorage Class) de acordo com a necessidade da disponibilidade do seu acesso.<br>
 
 Através do S3 é possivel versionar o arquivo (caso o versionamento seja marcado nas config's do app), lembrando que o versionamento é pago como 2 ou N arquivos armazenados<br>
 Cuidado com o versionamento, pois o mesmo pode ser cobrado por arquivos excluidos, versoes e etc.
 
 Gerenciar permissões do arquivo como leitura escrita.<br>
-Muito cuidado ao mover arquivos entre classes (Por exemplo: Mudar um arquivo da Standard> glacier > one region)
+Muito cuidado ao mover arquivos entre classes (tier) (Por exemplo: Mudar um arquivo da Standard> glacier > one region)
 
-Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes e algumas regras para o ciclo de vida do arquivo.
+Através do LifeCycle do s3 eu posso criar politicas de exclusão, mudança de classes (tier) e algumas regras para o ciclo de vida do arquivo.
 ### Comandos
 **Como migrar todos os arquivos de uma bucket para outra ?**
 ```console
