@@ -1,4 +1,4 @@
-# aws_study
+# Aws_Study
 Este repositório tem como objetivo registrar alguns termos e anotações relacionadas ao curso de Certificação Amazon AWS Solution Architect
 https://www.udemy.com/course/certificacao-amazon-aws-2019-solutions-architect/
 
