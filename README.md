@@ -45,7 +45,7 @@ Serviço da AWS responsável por entregar aos clientes CDN's
 8 - **CDN** = Content Delivery Network - replica os dados de acordo com as requisições que aparecem em regionais da AWS.<br>
 9 - **AZ** = Availability Zone<br>
 10 - **EDGE Location** = ??? <br>
-11 - **RTMP** = Sigla de compartilhamento do cloudfront para distribuição de conteudos de midia como musicas, imagens e videos.
+11 - **RTMP** = Real Time Messaging Protocol, Sigla de compartilhamento do cloudfront para distribuição de conteudos de midia como musicas, imagens e videos.
 
 # Links uteis
 
