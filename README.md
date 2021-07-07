@@ -29,10 +29,10 @@ aws cp --recursive s3://bucket-origem s3://bucket-destino
 <br>* Este comando nao move diretorios vazios. 
 <br>* Caso eu delete algum arquivo no diretorio no meu bucket principal ele nao deleta o arquivo no meu diretório de replicação.
 
-
 ## CloudFront
 Serviço da AWS responsável por entregar aos clientes CDN's 
-* Trata-se de uma boa abordagem para sites estáticos, streaming de videos para agilizar a entrega de conteudo em localidades distantes.
+<br>* Trata-se de uma boa abordagem para sites estáticos, streaming de videos para agilizar a entrega de conteudo em localidades distantes.
+<br>* Podemos criar dois tipos de disponibilizações WEB e RTMP 
 
 # Glossário
 1 - **ARN** = Amazon Resource Name<br>
@@ -45,7 +45,7 @@ Serviço da AWS responsável por entregar aos clientes CDN's
 8 - **CDN** = Content Delivery Network - replica os dados de acordo com as requisições que aparecem em regionais da AWS.<br>
 9 - **AZ** = Availability Zone<br>
 10 - **EDGE Location** = ??? <br>
-
+11 - **RTMP** = Sigla de compartilhamento do cloudfront para distribuição de conteudos de midia como musicas, imagens e videos.
 
 # Links uteis
 
