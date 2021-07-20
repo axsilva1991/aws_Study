@@ -34,6 +34,12 @@ Serviço da AWS responsável por entregar aos clientes CDN's
 <br>* Trata-se de uma boa abordagem para sites estáticos, streaming de videos para agilizar a entrega de conteudo em localidades distantes.
 <br>* Podemos criar dois tipos de disponibilizações WEB e RTMP 
 
+## Storage Gateway 
+Trata-se de um serviço da AWS que tem como objetivo servir como uma ponte entre a cloud privada da empresa com a conta da aws com o intuito de armazenamento de arquivos.<br>
+
+O Storage gateway pode ser instalado na cloud privada e são armazenados no sistema NFS(New File System) Volume Gateway (Para sistemas operacionais, maquinas virtuais (VMWARW)).
+
+
 # Glossário
 1 - **ARN** = Amazon Resource Name<br>
 2 - **S3** = Ferramenta de armazenamento de objetos da Amazon. <br>
