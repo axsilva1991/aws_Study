@@ -58,3 +58,4 @@ O Storage gateway pode ser instalado na cloud privada e são armazenados no sist
 
 * https://docs.aws.amazon.com/cli/index.html
 * https://aws.amazon.com/pt/s3/storage-classes/
+* https://aws.amazon.com/pt/storagegateway/vtl/
