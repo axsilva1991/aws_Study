@@ -39,6 +39,13 @@ Trata-se de um serviço da AWS que tem como objetivo servir como uma ponte entre
 
 O Storage gateway pode ser instalado na cloud privada e são armazenados no sistema NFS(New File System) Volume Gateway (Para sistemas operacionais, maquinas virtuais (VMWARW)).
 
+## SnowBall 
+trata-se de um dispositivo fisico da Amazon, que tem como intuito prover maior velocidade nas transferencias de arquivos entre a empresa e AWS.
+
+Pode ser categorizado em
+* SNOWBALL - uma pequena caixa
+* SNOWBALL EDGE - um gabinete
+* SNOWMOBILE - Um caminhão com container.
 
 # Glossário
 1 - **ARN** = Amazon Resource Name<br>
