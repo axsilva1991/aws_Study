@@ -47,6 +47,9 @@ Pode ser categorizado em
 * SNOWBALL EDGE - um gabinete
 * SNOWMOBILE - Um caminhão com container.
 
+## S3 TransferAccelartion
+Solução usada na aws usando a estrutura do cloudfront, para otmizar a transmissão de dados entre duas CDN's da aws.
+
 # Glossário
 1 - **ARN** = Amazon Resource Name<br>
 2 - **S3** = Ferramenta de armazenamento de objetos da Amazon. <br>
