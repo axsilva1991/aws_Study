@@ -50,6 +50,9 @@ Pode ser categorizado em
 ## S3 TransferAccelartion
 Solução usada na aws usando a estrutura do cloudfront, para otmizar a transmissão de dados entre duas CDN's da aws.
 
+## S3 Static WebSite Hosting
+Possibilita a execução de um servico web em uma bucket s3.
+
 # Glossário
 1 - **ARN** = Amazon Resource Name<br>
 2 - **S3** = Ferramenta de armazenamento de objetos da Amazon. <br>
