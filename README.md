@@ -65,9 +65,11 @@ Possibilita a execução de um servico web em uma bucket s3.
 9 - **AZ** = Availability Zone<br>
 10 - **EDGE Location** = ??? <br>
 11 - **RTMP** = Real Time Messaging Protocol, Sigla de compartilhamento do cloudfront para distribuição de conteudos de midia como musicas, imagens e videos.<br>
-12 - **VTL** = O Tape Gateway permite substituir o uso de fitas físicas on-premises por fitas virtuais na AWS sem alterar os fluxos de trabalho de backup existentes. O Tape Gateway é compatível com todas as principais aplicações de backup e armazena fitas virtuais on-premises em cache para oferecer acesso aos dados com baixa latência. O Tape Gateway criptografa dados entre o gateway e a AWS para oferecer uma transferência segura de dados, compacta os dados e faz a transição de fitas virtuais entre o Amazon S3 e o Amazon S3 Glacier ou o Amazon S3 Glacier Deep Archive para minimizar seus custos de armazenamento.
+12 - **VTL** = O Tape Gateway permite substituir o uso de fitas físicas on-premises por fitas virtuais na AWS sem alterar os fluxos de trabalho de backup existentes. O Tape Gateway é compatível com todas as principais aplicações de backup e armazena fitas virtuais on-premises em cache para oferecer acesso aos dados com baixa latência. O Tape Gateway criptografa dados entre o gateway e a AWS para oferecer uma transferência segura de dados, compacta os dados e faz a transição de fitas virtuais entre o Amazon S3 e o Amazon S3 Glacier ou o Amazon S3 Glacier Deep Archive para minimizar seus custos de armazenamento.<br>
 13 - **ROOTDeviceType = EBS** = Elastic Block Storage. Trata-se de um volume muito rápido para para o BOOT.**(Novo)**<br>
 14 - **ROOTDeviceType = IS** = Instance Store. Armazena dados temporários, caso a maquina seja interrompida os dados são perdidos.**(Antigo)**<br>
+15 - **CloudWatch** = Ferramenta da amazon para avaliar performance do aplicativo.<br>
+15 - **CloudTrail** = Ferramenta de monitoração de logs de (Acessos, Ações como criação de recursos e alteração de Recursos AWS).<br>
 
 # Links uteis
 
