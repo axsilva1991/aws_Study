@@ -69,7 +69,11 @@ Possibilita a execução de um servico web em uma bucket s3.
 13 - **ROOTDeviceType = EBS** = Elastic Block Storage. Trata-se de um volume muito rápido para para o BOOT.**(Novo)**<br>
 14 - **ROOTDeviceType = IS** = Instance Store. Armazena dados temporários, caso a maquina seja interrompida os dados são perdidos.**(Antigo)**<br>
 15 - **CloudWatch ($$ Tarifado)** = Ferramenta da amazon para avaliar performance do aplicativo.<br>
-15 - **CloudTrail** = Ferramenta de monitoração de logs de (Acessos, Ações como criação de recursos e alteração de Recursos AWS).<br>
+16 - **CloudTrail** = Ferramenta de monitoração de logs de (Acessos, Ações como criação de recursos e alteração de Recursos AWS).<br>
+17 - **Load Ballabcer** = Responsável pelo balanceamento de cargas entre aplicativos com conteudos iguais<br>
+18 - **Application_LB** = (HTTP/HTTPS - Layer7)<br>
+19 - **Network_LB** = (TCP - Layer 4)<br>
+20 - **Classic_LB** = (HTTP/HTTPS - Layer7) e (TCP - Layer 4) <br>
 
 # Links uteis
 
