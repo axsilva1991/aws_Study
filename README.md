@@ -73,7 +73,9 @@ Possibilita a execução de um servico web em uma bucket s3.
 17 - **Load Ballabcer** = Responsável pelo balanceamento de cargas entre aplicativos com conteudos iguais<br>
 18 - **Application_LB** = (HTTP/HTTPS - Layer7)<br>
 19 - **Network_LB** = (TCP - Layer 4)<br>
-20 - **Classic_LB** = (HTTP/HTTPS - Layer7) e (TCP - Layer 4) <br>
+20 - **Classic_LB - Legado** = (HTTP/HTTPS - Layer7) e (TCP - Layer 4) <br>
+21 - **Classic_LB** = (HTTP/HTTPS - Layer7) e (TCP - Layer 4) <br>
+22 - **AZ** = Availability Zone <br>
 
 # Links uteis
 
