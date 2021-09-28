@@ -77,6 +77,9 @@ Possibilita a execução de um servico web em uma bucket s3.
 21 - **Classic_LB** = (HTTP/HTTPS - Layer7) e (TCP - Layer 4) <br>
 22 - **AZ** = Availability Zone <br>
 23 - **VPC** = Virtual Private Cloud <br>
+24 - **ACL** X **VPC** = Virtual Private Cloud <br>
+* ACL = StateFull = Permite e Bloqueia.
+* VPC StateLess = Apenas permite.
 
 # Links uteis
 
