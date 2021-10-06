@@ -80,7 +80,10 @@ Possibilita a execução de um servico web em uma bucket s3.
 24 - **ACL** X **VPC** = Virtual Private Cloud <br>
 * ACL = StateFull = Permite e Bloqueia.
 * VPC StateLess = Apenas permite.<br>
-24 - **NAT** = Network address translation - usado para 
+24 - **NAT** = Network address translation - usado para <br>
+25 - **VPC endpoint** = Permite conectar de forma privada a VPC aos serviços compatíveis da AWS e aos serviços do endpoint da VPC desenvolvidos pelo PrivateLink sem exigir gateway da Internet, dispositivo NAT, conexão VPN ou conexão do AWS Direct Connect. As instâncias na sua VPC não exigem que endereços IP públicos se comuniquem com recursos no serviço. O tráfego entre a sua VPC e os outros serviços não deixa a rede da Amazon. Para obter mais informações, consulte AWS PrivateLink e endpoints da VPC.
+
+
 # Links uteis
 
 * https://docs.aws.amazon.com/cli/index.html
