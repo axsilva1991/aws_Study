@@ -79,7 +79,7 @@ Possibilita a execução de um servico web em uma bucket s3.
 23 - **VPC** = Virtual Private Cloud <br>
 24 - **ACL** X **VPC** = Virtual Private Cloud <br>
 * ACL = StateFull = Permite e Bloqueia.
-* VPC StateLess = Apenas permite.
+* VPC StateLess = Apenas permite.<br>
 24 - **NAT** = Network address translation - usado para 
 # Links uteis
 
