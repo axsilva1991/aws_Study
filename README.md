@@ -80,7 +80,7 @@ Possibilita a execução de um servico web em uma bucket s3.
 24 - **ACL** X **VPC** = Virtual Private Cloud <br>
 * ACL = StateFull = Permite e Bloqueia.
 * VPC StateLess = Apenas permite.
-
+24 - **NAT** = Network address translation - usado para 
 # Links uteis
 
 * https://docs.aws.amazon.com/cli/index.html
